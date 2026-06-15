@@ -1,0 +1,10 @@
+const body = JSON.stringify({ sdk: [], addata: [] });
+
+$done({
+  response: {
+    status: 200,
+    headers: { "Content-Type": "application/json; charset=utf-8" },
+    body,
+  },
+  body,
+});
