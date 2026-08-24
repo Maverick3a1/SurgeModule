@@ -1,5 +1,8 @@
 #!name=系统 DNS
 #!desc=使用系统 DNS，并停用加密 DNS
+#!author=Maverick3a1
+#!repo=https://github.com/Maverick3a1/SurgeModule
+#!category=Maverick3a1
 
 [General]
 dns-server = system
