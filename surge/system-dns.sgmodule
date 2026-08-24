@@ -5,5 +5,8 @@
 #!category=Maverick3a1
 
 [General]
-dns-server = 1.1.1.1, 8.8.8.8
-encrypted-dns-server = https://cloudflare-dns.com/dns-query, https://dns.google/dns-query
+#dns-server = 1.1.1.1, 8.8.8.8
+#encrypted-dns-server = https://cloudflare-dns.com/dns-query, https://dns.google/dns-query
+
+dns-server = system
+encrypted-dns-server = off
